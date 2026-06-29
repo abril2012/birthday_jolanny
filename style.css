@@ -14,10 +14,20 @@
 
 }
 body{
-
     margin:0;
-    background:var(--blanco);
     font-family:'Quicksand',sans-serif;
+
+    background-color:#fffdfd;
+
+    background-image:
+
+    radial-gradient(circle,#ffd6e8 1.5px,transparent 1.5px),
+
+    radial-gradient(circle,#cfefff 1.5px,transparent 1.5px);
+
+    background-size:70px 70px;
+
+    background-position:0 0,35px 35px;
 }
 
 /* Banner */
