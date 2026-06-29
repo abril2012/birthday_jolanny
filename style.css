@@ -1,6 +1,71 @@
 body{
-    margin:0;
-    padding:0;
-    background:#fdf8ff;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+background:#ffeef6;
+
+margin:0;
+
+font-family:Verdana;
+
+}
+
+header{
+
+background:#bfefff;
+
+padding:20px;
+
+text-align:center;
+
+font-size:28px;
+
+color:#ff5fa2;
+
+}
+
+.contenedor{
+
+display:grid;
+
+grid-template-columns:220px 1fr 220px;
+
+gap:20px;
+
+padding:20px;
+
+}
+
+.caja{
+
+background:white;
+
+padding:15px;
+
+border-radius:15px;
+
+box-shadow:0 0 10px rgba(0,0,0,.1);
+
+margin-bottom:20px;
+
+}
+
+.post{
+
+background:white;
+
+padding:20px;
+
+border-radius:20px;
+
+box-shadow:0 0 10px rgba(0,0,0,.1);
+
+}
+
+@media(max-width:900px){
+
+.contenedor{
+
+grid-template-columns:1fr;
+
+}
+
 }
