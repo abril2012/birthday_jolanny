@@ -266,6 +266,7 @@ animation:brillar 2s infinite alternate;
 
 }
 .cloud{
+    animation:float 5s ease-in-out infinite;
 
 position:absolute;
 
@@ -333,5 +334,26 @@ top:55px;
 right:60px;
 
 top:55px;
+
+}
+@keyframes float{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-8px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
 
 }
