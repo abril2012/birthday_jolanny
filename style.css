@@ -23,7 +23,7 @@ body{
 /* Banner */
 
 header{
-    background:linear-gradient(90deg,#cfefff,#ffd6e8);
+    background:linear-gradient(90deg,var(--celeste),var(--rosa));
     padding:40px;
     text-align:center;
     border-bottom:5px solid white;
@@ -33,11 +33,11 @@ header h1{
     margin:0;
     font-size:55px;
     font-family:'Pacifico',cursive;
-    color:#ff6ea8;
+    color:var(--rosa-fuerte);
 }
 
 header p{
-    color:#6aa9d8;
+    color:var(--celeste-fuerte);
     margin-top:10px;
 }
 
@@ -71,11 +71,11 @@ padding:8px 18px;
 
 border-radius:50px;
 
-border:2px solid #ffd4ea;
+border:2px solid var(--rosa);
 
 text-decoration:none;
 
-color:#ff6ea8;
+color:var(--rosa-fuerte);
 
 font-weight:bold;
 
@@ -85,9 +85,9 @@ transition:.3s;
 
 .menu a:hover{
 
-background:#ffdff0;
+background:var(--rosa);
 
-color:#6ab8ff;
+color:var(--celeste-fuerte);
 
 transform:translateY(-3px);
 
@@ -114,8 +114,8 @@ padding:25px;
     background:rgba(255,255,255,.95);
     border-radius:18px;
     padding:20px;
-    border:3px solid #ffd4ea;
-    box-shadow:8px 8px 0px #ffeaf5;
+    border:3px solid var(--rosa);
+    box-shadow:8px 8px 0px var(--sombra);
     margin-bottom:20px;
     transition:.3s;
 }
@@ -129,7 +129,7 @@ padding:25px;
 
 margin-top:0;
 
-color:#ff6ea8;
+color:var(--rosa);
 
 }
 
@@ -137,7 +137,7 @@ color:#ff6ea8;
 
 margin-top:0;
 
-color:#6ab8ff;
+color:var(--celeste-fuerte);
 
 }
 
