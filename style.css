@@ -25,6 +25,9 @@ line-height:1.7;
 /* Banner */
 
 header{
+    position:relative;
+
+overflow:hidden;
     background:linear-gradient(90deg,var(--celeste),var(--rosa));
     padding:40px;
     text-align:center;
