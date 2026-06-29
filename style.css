@@ -206,7 +206,25 @@ grid-template-columns:1fr;
         transform:translateY(0);
 
     }
+@keyframes brillar{
 
+from{
+
+opacity:.4;
+
+transform:scale(.9);
+
+}
+
+to{
+
+opacity:1;
+
+transform:scale(1.2);
+
+}
+
+}
 }
 img{
 
@@ -224,5 +242,14 @@ align-items:center;
 justify-content:center;
 
 gap:30px;
+
+}
+.estrella{
+
+font-size:40px;
+
+color:var(--rosa-fuerte);
+
+animation:brillar 2s infinite alternate;
 
 }
