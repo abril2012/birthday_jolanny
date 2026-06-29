@@ -16,6 +16,8 @@
 body{
     margin:0;
     font-family:'Quicksand',sans-serif;
+    color:#555;
+line-height:1.7;
 
     background-color:#fffdfd;
 
@@ -37,6 +39,7 @@ header{
     padding:40px;
     text-align:center;
     border-bottom:5px solid white;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
 }
 
 header h1{
@@ -203,5 +206,12 @@ grid-template-columns:1fr;
         transform:translateY(0);
 
     }
+
+}
+img{
+
+    max-width:100%;
+
+    border-radius:15px;
 
 }
