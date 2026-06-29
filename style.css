@@ -69,7 +69,11 @@ transition:.3s;
 
 .menu a:hover{
 
+background:#ffdff0;
+
 color:#6ab8ff;
+
+transform:translateY(-3px);
 
 }
 
