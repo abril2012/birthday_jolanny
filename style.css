@@ -132,7 +132,21 @@ padding:25px;
     position:relative;
 overflow:hidden;
 }
+.post::before{
 
+content:"✿";
+
+position:absolute;
+
+top:15px;
+
+right:20px;
+
+font-size:25px;
+
+opacity:.2;
+
+}
 .caja:hover,
 .post:hover{
     transform:translateY(-5px);
