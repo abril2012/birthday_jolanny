@@ -131,6 +131,7 @@ padding:25px;
     transform:rotate(-1deg);
     position:relative;
 overflow:hidden;
+    animation:aparecer .8s ease;
 }
 .post::before{
 
