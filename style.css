@@ -14,8 +14,9 @@
 
 }
 body{
+
     margin:0;
-    background:#fff8fc;
+    background:var(--blanco);
     font-family:'Quicksand',sans-serif;
 }
 
