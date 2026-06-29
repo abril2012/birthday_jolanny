@@ -129,6 +129,8 @@ padding:25px;
     margin-bottom:20px;
     transition:.3s;
     transform:rotate(-1deg);
+    position:relative;
+overflow:hidden;
 }
 
 .caja:hover,
