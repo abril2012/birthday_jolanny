@@ -129,7 +129,11 @@ padding:25px;
 
 margin-top:0;
 
-color:var(--rosa);
+color:var(--rosa-fuerte);
+
+text-align:center;
+
+font-size:22px;
 
 }
 
