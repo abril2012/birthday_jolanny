@@ -149,7 +149,11 @@ opacity:.2;
 }
 .caja:hover,
 .post:hover{
-    transform:translateY(-5px);
+
+    transform:translateY(-8px) scale(1.02);
+
+    box-shadow:12px 12px 0px var(--sombra);
+
 }
 
 .caja h3{
