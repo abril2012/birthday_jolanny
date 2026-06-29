@@ -1,62 +1,112 @@
 body{
-
-background:#ffeef6;
-
-margin:0;
-
-font-family:Verdana;
-
+    margin:0;
+    background:#fff8fc;
+    font-family:'Quicksand',sans-serif;
 }
+
+/* Banner */
 
 header{
-
-background:#bfefff;
-
-padding:20px;
-
-text-align:center;
-
-font-size:28px;
-
-color:#ff5fa2;
-
+    background:linear-gradient(90deg,#cfefff,#ffd6e8);
+    padding:40px;
+    text-align:center;
+    border-bottom:5px solid white;
 }
 
-.contenedor{
-
-display:grid;
-
-grid-template-columns:220px 1fr 220px;
-
-gap:20px;
-
-padding:20px;
-
+header h1{
+    margin:0;
+    font-size:55px;
+    font-family:'Pacifico',cursive;
+    color:#ff6ea8;
 }
 
-.caja{
+header p{
+    color:#6aa9d8;
+    margin-top:10px;
+}
+
+/* Menú */
+
+.menu{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
 
 background:white;
 
 padding:15px;
 
-border-radius:15px;
+position:sticky;
 
-box-shadow:0 0 10px rgba(0,0,0,.1);
+top:0;
 
-margin-bottom:20px;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
 
 }
 
+.menu a{
+
+text-decoration:none;
+
+color:#ff6ea8;
+
+font-weight:bold;
+
+}
+
+.menu a:hover{
+
+color:#6ab8ff;
+
+}
+
+/* Contenido */
+
+.contenedor{
+
+display:grid;
+
+grid-template-columns:230px 1fr 230px;
+
+gap:20px;
+
+padding:25px;
+
+}
+
+/* Cajitas */
+
+.caja,
 .post{
 
 background:white;
 
-padding:20px;
-
 border-radius:20px;
 
-box-shadow:0 0 10px rgba(0,0,0,.1);
+padding:20px;
+
+box-shadow:0 5px 15px rgba(255,170,210,.25);
+
+border:2px solid #ffe3f0;
+
+}
+
+.caja h3{
+
+margin-top:0;
+
+color:#ff6ea8;
+
+}
+
+.post h2{
+
+margin-top:0;
+
+color:#6ab8ff;
 
 }
 
