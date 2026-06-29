@@ -233,6 +233,25 @@ img{
     border-radius:15px;
 
 }
+header h1{
+
+    transition:.4s;
+
+    cursor:default;
+
+}
+
+header h1:hover{
+
+    transform:scale(1.05);
+
+    letter-spacing:2px;
+
+    text-shadow:
+        0 0 10px rgba(255,255,255,.9),
+        0 0 20px var(--rosa);
+
+}
 .banner{
 
 display:flex;
