@@ -93,10 +93,10 @@ transition:.3s;
 
 background:var(--rosa);
 
-color:var(--celeste-fuerte);
+color:var(--rosa-fuerte);
 
 transform:translateY(-3px);
-
+box-shadow:0 8px 18px rgba(255,182,193,.45);
 }
 
 /* Contenido */
