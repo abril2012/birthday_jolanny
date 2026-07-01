@@ -482,3 +482,34 @@ font-size:45px;
 color:white;
 
 }
+body::before{
+
+content:"";
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+pointer-events:none;
+
+background-image:
+
+radial-gradient(#ffd4ec 1px, transparent 1px),
+
+radial-gradient(#cfefff 1px, transparent 1px);
+
+background-size:60px 60px,80px 80px;
+
+background-position:0 0,30px 30px;
+
+opacity:.35;
+
+z-index:-1;
+
+}
