@@ -130,7 +130,7 @@ overflow:hidden;
     animation:aparecer .8s ease;
     line-height:1.9;
     color:#555;
-
+position:relative;margin-bottom:30px;
 font-size:17px;
 }
 .post::before{
@@ -370,3 +370,4 @@ transform:translateY(0px);
 
 }
 .post{background:rgba(255,255,255,.96);border:2px dashed #ffd4e8;padding:40px;border-radius:28px;box-shadow:12px 12px 0px #ffeaf5;position:relative;line-height:1.9;font-size:17px;color:#555;}.post::before{content:\"\";position:absolute;top:-12px;right:35px;width:90px;height:25px;background:#ffc7dd;opacity:.85;transform:rotate(18deg);border-radius:6px;}.post::after{content:\"🩷\";position:absolute;bottom:15px;left:25px;font-size:28px;}
+.caja::before{content:\"🎀\";position:absolute;top:-10px;left:-10px;font-size:22px;}
