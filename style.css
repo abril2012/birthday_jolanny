@@ -129,6 +129,7 @@ padding:25px;
 overflow:hidden;
     animation:aparecer .8s ease;
     line-height:1.9;
+    color:#555;
 
 font-size:17px;
 }
