@@ -576,20 +576,15 @@ transform:rotate(12deg) translateY(0px);
 }
 
 .playlist li{
-    background:#fff8fd;
-    border:2px solid #ffd6e8;
-    border-radius:15px;
-    padding:10px;
-    margin:10px 0;
-    color:#ff69b4;
-    font-weight:bold;
-    cursor:pointer;
-    transition:.3s;
     list-style:none;
+    margin:10px 0;
+    padding:8px 10px;
+    cursor:pointer;
+    color:var(--rosa-fuerte);
+    transition:.3s;
 }
 
 .playlist li:hover{
-    background:#ffe9f4;
+    color:var(--celeste-fuerte);
     transform:translateX(5px);
-    color:#6b8bff;
 }
