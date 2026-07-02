@@ -444,17 +444,19 @@ content:"";
 
 position:absolute;
 
-top:-12px;
+width:70px;
+
+height:18px;
+
+background:#fff7b8;
+
+opacity:.8;
+
+top:-10px;
 
 left:50%;
 
-transform:translateX(-50%) rotate(-4deg);
-
-width:70px;
-
-height:24px;
-
-background:rgba(255,220,235,.85);
+transform:translateX(-50%) rotate(-5deg);
 
 border-radius:4px;
 
