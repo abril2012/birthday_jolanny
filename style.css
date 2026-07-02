@@ -569,3 +569,34 @@ transform:rotate(12deg) translateY(-4px);
 transform:rotate(12deg) translateY(0px);
 
 }
+#playBtn{
+
+margin-top:15px;
+
+padding:12px 20px;
+
+border:none;
+
+border-radius:30px;
+
+background:linear-gradient(90deg,#ffd6e8,#cfefff);
+
+color:#d46b98;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+font-size:15px;
+
+}
+
+#playBtn:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 5px 12px rgba(0,0,0,.15);
+
+}
