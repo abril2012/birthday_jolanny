@@ -271,6 +271,8 @@ gap:30px;
 backdrop-filter:blur(8px);
 
 border:2px solid rgba(255,255,255,.4);
+position: relative;
+z-index: 10;
 }
 .estrella{
 
@@ -295,7 +297,7 @@ background:white;
 border-radius:50px;
 
 box-shadow:0 6px 12px rgba(255,192,203,.18);
-
+z-index: 5;
 }
 
 .cloud::before{
