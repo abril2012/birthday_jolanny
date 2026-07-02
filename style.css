@@ -528,3 +528,74 @@ transform:rotate(0deg) scale(1.08);
 z-index:10;
 
 }
+.bow{
+
+position:absolute;
+
+font-size:34px;
+
+top:-18px;
+
+right:20px;
+
+transform:rotate(12deg);
+
+filter:drop-shadow(0 3px 5px rgba(0,0,0,.12));
+
+animation:floatBow 3s ease-in-out infinite;
+
+}
+@keyframes floatBow{
+
+0%{
+
+transform:rotate(12deg) translateY(0px);
+
+}
+
+50%{
+
+transform:rotate(12deg) translateY(-4px);
+
+}
+
+100%{
+
+transform:rotate(12deg) translateY(0px);
+
+}
+    .heart{
+
+position:absolute;
+
+font-size:18px;
+
+opacity:.8;
+
+animation:floatHeart 5s ease-in-out infinite;
+
+}
+
+.h1{
+
+left:18%;
+
+top:60px;
+
+}
+
+.h2{
+
+right:22%;
+
+top:100px;
+
+}
+
+.h3{
+
+left:50%;
+
+top:25px;
+
+}
