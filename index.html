@@ -154,27 +154,15 @@ Abril
     </div>
 <script>
 
-const boton=document.getElementById("playBtn");
+const musica = document.getElementById("song");
 
-const musica=document.getElementById("song");
+function cambiarCancion(ruta){
 
-boton.addEventListener("click",()=>{
+    musica.src = ruta;
 
-if(musica.paused){
-
-musica.play();
-
-boton.textContent="⏸ Pause";
-
-}else{
-
-musica.pause();
-
-boton.textContent="▶ Play Happy Birthday";
+    musica.play();
 
 }
-
-});
 
 </script>
 </section>
