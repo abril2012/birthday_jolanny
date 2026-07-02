@@ -102,19 +102,30 @@ Abril
 <aside class="derecha">    
 <div class="caja" id="playlist">
 
-<h3>Playlist</h3>
+<div class="caja" id="playlist">
 
-<p>canciones elegidas para ti</p>
+    <div class="caja" id="playlist">
 
-<button id="playBtn">
-▶ Play Happy Birthday
-</button>
+    <h3>🎵 Playlist</h3>
 
-<audio id="song" preload="auto">
-    <source src="music/piano_music-happy-birthday-on-piano-121400.mp3" type="audio/mpeg">
-</audio>
-</div>
-</aside>
+    <p>Choose a song ♡</p>
+
+    <ul class="playlist">
+        <li onclick="cambiarCancion('music/piano_music-happy-birthday-on-piano-121400.mp3')">
+            Happy Birthday
+        </li>
+
+        <li onclick="cambiarCancion('music/Tokio Hotel  Forever Now  Sub Español  Lyrics.mp3')">
+            Forever now
+        </li>
+
+        <li onclick="cambiarCancion('music/GROUPLOVE - Tongue Tied Take Me To Your Best Friend's House  Lyrics.mp3')">
+            Tongue Tied
+        </li>
+    </ul>
+
+    <audio id="song"></audio>
+
 </div>
 
 
