@@ -252,9 +252,11 @@ header h1:hover{
 
     letter-spacing:2px;
 
-    text-shadow:
-        0 0 10px rgba(255,255,255,.9),
-        0 0 20px var(--rosa);
+  text-shadow:
+
+0 0 8px rgba(255,255,255,.9),
+
+0 0 18px rgba(255,192,203,.6);
 
 }
 .banner{
@@ -266,7 +268,9 @@ align-items:center;
 justify-content:center;
 
 gap:30px;
+backdrop-filter:blur(8px);
 
+border:2px solid rgba(255,255,255,.4);
 }
 .estrella{
 
@@ -597,5 +601,24 @@ top:100px;
 left:50%;
 
 top:25px;
+
+}
+@keyframes floatHeart{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-8px);
+
+}
+
+100%{
+
+transform:translateY(0);
 
 }
